@@ -1,0 +1,7 @@
+export { default as iconContact } from './icon-contact.svg'
+export { default as iconEdit } from './icon-edit.svg'
+export { default as iconEmail } from './icon-email.svg'
+export { default as iconFavorite } from './icon-favorite.svg'
+export { default as iconSearch } from './icon-search.svg'
+export { default as iconTrash } from './icon-trash.svg'
+export { default as selfie } from './selfie.jpg'

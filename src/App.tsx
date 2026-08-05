@@ -1,7 +1,15 @@
+import GlobalStyles from './styles'
+
+import Container from './layouts/Container'
+
+import Header from './layouts/Header'
+
 function App() {
   return (
     <>
-      <h1>ola mundo!</h1>
+      <GlobalStyles />
+      <Header />
+      <Container />
     </>
   )
 }
