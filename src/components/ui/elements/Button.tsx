@@ -7,11 +7,18 @@ const NewButton = styled.button`
   width: 154px;
   height: 40px;
   border: none;
+  cursor: pointer;
 `
-function Button() {
+
+type ButtonProps = {
+  text: string
+  onClick?: () => void
+}
+
+function Button({ text, onClick }: ButtonProps) {
   return (
     <>
-      <NewButton>+ Novo Contato</NewButton>
+      <NewButton onClick={onClick}>{text}</NewButton>
     </>
   )
 }

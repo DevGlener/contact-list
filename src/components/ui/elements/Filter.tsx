@@ -1,25 +1,48 @@
+import { useState } from 'react'
 import styled from 'styled-components'
 import BtnFilter from './BtnFilter'
 
 function Filter() {
+  const [selecionado, setSelecionado] = useState('todos')
+
   return (
     <ContainerList>
       <p>Filtrar por :</p>
       <Ul>
         <li>
-          <BtnFilter text="Tudo" ativo />
+          <BtnFilter
+            text="Tudo"
+            ativo={selecionado === 'todos'}
+            onClick={() => setSelecionado('todos')}
+          />
         </li>
         <li>
-          <BtnFilter text="Favoritos" />
+          <BtnFilter
+            text="Favoritos"
+            ativo={selecionado === 'Favoritos'}
+            onClick={() => setSelecionado('Favoritos')}
+          />
         </li>
         <li>
-          <BtnFilter text="Nome" />
+          <BtnFilter
+            text="Nome"
+            ativo={selecionado === 'Nome'}
+            onClick={() => setSelecionado('Nome')}
+          />
         </li>
         <li>
-          <BtnFilter text="E-mail" />
+          <BtnFilter
+            text="E-mail"
+            ativo={selecionado === 'E-mail'}
+            onClick={() => setSelecionado('E-mail')}
+          />
         </li>
         <li>
-          <BtnFilter text="Telefone" />
+          <BtnFilter
+            text="Telefone"
+            ativo={selecionado === 'Telefone'}
+            onClick={() => setSelecionado('Telefone')}
+          />
         </li>
       </Ul>
     </ContainerList>

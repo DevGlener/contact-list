@@ -16,10 +16,14 @@ const P = styled.p<{ ativo?: boolean }>`
 type BtnFilterProps = {
   text?: string
   ativo?: boolean
-  // onClick: () => void
+  onClick?: () => void
 }
 
-export function BtnFilter({ text, ativo }: BtnFilterProps) {
-  return <P ativo={ativo}>{text}</P>
+export function BtnFilter({ text, ativo = false, onClick }: BtnFilterProps) {
+  return (
+    <P ativo={ativo} onClick={onClick}>
+      {text}
+    </P>
+  )
 }
 export default BtnFilter

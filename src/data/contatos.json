@@ -1,0 +1,98 @@
+[
+  {
+    "id": 1,
+    "nome": "Ana Silva",
+    "email": "ana.moraes@empresa.com",
+    "telefone": "11988887777",
+    "status": "trabalho",
+    "avatar": ""
+  },
+  {
+    "id": 2,
+    "nome": "Teo Oliveira",
+    "email": "teo.oliveira@empresa.com",
+    "telefone": "11977776666",
+    "status": "familia",
+    "avatar": ""
+  },
+  {
+    "id": 3,
+    "nome": "Julio Barbosa",
+    "email": "julio.barbosa@empresa.com",
+    "telefone": "11966665555",
+    "status": "amigo",
+    "avatar": ""
+  },
+  {
+    "id": 4,
+    "nome": "Mariana Souza",
+    "email": "mariana.souza@empresa.com",
+    "telefone": "11955554444",
+    "status": "trabalho",
+    "avatar": ""
+  },
+  {
+    "id": 5,
+    "nome": "Carlos Eduardo",
+    "email": "carlos.eduardo@familia.com",
+    "telefone": "11944443333",
+    "status": "familia",
+    "avatar": ""
+  },
+  {
+    "id": 6,
+    "nome": "Beatriz Lima",
+    "email": "bia.lima@amigos.com",
+    "telefone": "11933332222",
+    "status": "amigo",
+    "avatar": ""
+  },
+  {
+    "id": 7,
+    "nome": "Lucas Almeida",
+    "email": "lucas.almeida@empresa.com",
+    "telefone": "11922221111",
+    "status": "trabalho",
+    "avatar": ""
+  },
+  {
+    "id": 8,
+    "nome": "Fernanda Costa",
+    "email": "fernanda.costa@familia.com",
+    "telefone": "11911110000",
+    "status": "familia",
+    "avatar": ""
+  },
+  {
+    "id": 9,
+    "nome": "Gabriel Rocha",
+    "email": "gabriel.rocha@amigos.com",
+    "telefone": "11900009999",
+    "status": "amigo",
+    "avatar": ""
+  },
+  {
+    "id": 10,
+    "nome": "Juliana Martins",
+    "email": "juliana.martins@empresa.com",
+    "telefone": "11999998888",
+    "status": "trabalho",
+    "avatar": ""
+  },
+  {
+    "id": 11,
+    "nome": "Roberto Dias",
+    "email": "roberto.dias@familia.com",
+    "telefone": "11988889999",
+    "status": "familia",
+    "avatar": ""
+  },
+  {
+    "id": 12,
+    "nome": "Camila Ribeiro",
+    "email": "camila.ribeiro@amigos.com",
+    "telefone": "11977778888",
+    "status": "amigo",
+    "avatar": ""
+  }
+]

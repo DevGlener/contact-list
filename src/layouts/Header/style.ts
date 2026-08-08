@@ -7,6 +7,7 @@ export const Nav = styled.header`
   align-items: center;
   gap: 404px;
   background-color: #fff;
+  border-radius: 20px;
 `
 export const H1 = styled.h1`
   font-size: 20px;

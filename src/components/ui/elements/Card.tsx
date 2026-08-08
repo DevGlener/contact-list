@@ -6,7 +6,7 @@ import {
   iconEmail,
   iconFavorite,
   iconTrash,
-  selfie,
+  userPadrao,
 } from '../../../assets'
 
 const NewButton = styled.button`
@@ -83,6 +83,9 @@ const FooterCard = styled.div`
   justify-content: space-between;
   gap: 16px;
   padding: 30px;
+  img {
+    cursor: pointer;
+  }
 `
 const OptionsCard = styled.div`
   display: flex;
@@ -90,18 +93,18 @@ const OptionsCard = styled.div`
 `
 
 type Props = {
-  avatar?: string
+  avatar: string
   nome: string
   status: string
   text: string
   contact: string
 }
 
-function Card({ status, nome, text, contact }: Props) {
+function Card({ avatar = userPadrao, status, nome, text, contact }: Props) {
   return (
     <NewButton>
       <HeaderCard>
-        <img src={selfie} alt={text} />
+        <img src={avatar ? avatar : userPadrao} alt={nome} />
         <HeaderText>
           <h3>{nome}</h3>
           <span>{status}</span>
@@ -123,7 +126,7 @@ function Card({ status, nome, text, contact }: Props) {
           <img src={iconContact} alt={text} />
           <img src={iconFavorite} alt={text} />
         </OptionsCard>
-        <img src={iconTrash} alt={text} />
+        <img src={iconTrash} />
       </FooterCard>
     </NewButton>
   )
